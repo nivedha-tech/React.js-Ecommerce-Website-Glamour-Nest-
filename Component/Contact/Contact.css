@@ -1,0 +1,131 @@
+.contact-image
+{
+
+    background-image: url("C:/Users/Ramesh/fw/src/Component/images/aboutimg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    /* Slight opacity for professional look */
+    display: flex; /* Flexbox layout to center the form */
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.footer {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    width: 80%;
+    padding-top: 30px ;
+    background: purple;
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    border-radius: 10px; 
+}
+
+.footer div {
+    text-align: center;
+    flex: 1; /* Allow columns to grow equally */
+    margin: 30px; /* Space between columns */
+}
+
+.col-2 {
+    flex-grow: 2; /* Allows the newsletter section to take more space */
+}
+
+.footer h3 {
+    font-weight: 300;
+    margin-bottom: 150px; 
+    letter-spacing: 1px;
+    color: white; 
+    font-size: 25px;
+}
+.about-input {
+    width: 100%;
+    max-width: 400px; 
+    height: 45px;
+   
+    text-align: center;
+    margin-top: -405px;
+    margin-bottom: 20px; 
+    top:10px;
+
+    border: 2px solid #ccc;
+    padding: 10px;
+   
+    border: 2px solid #ccc;
+}
+
+.about-btn {
+    background-color: #ff44f2;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ff44f2;
+    font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: white;
+    color:#ff44f2;
+}
+
+.social-icons {
+    margin-top: 20px; /* Reduced margin for better spacing */
+}
+
+.social-icons i {
+    font-size: 45px; 
+    margin: 0 10px; 
+    color: white; ; 
+    transition: color 0.3s; 
+}
+
+.social-icons i:hover {
+    color: purple; /* Color change on hover */
+}
+
+.col-3 {
+    flex-grow: 1; 
+}
+
+textarea {
+    width: 100%; 
+    max-width: 300px; 
+    height: 60px;
+    margin-top: 20px;
+    padding: 10px;
+   
+    border: 2px solid #ccc;
+  
+}
+
+.about-input:hover{
+    border-color: purple; /* Changes border color when focused (purple shade) */
+
+}
+
+textarea:hover{
+    border-color: purple; /* Changes border color when focused (purple shade) */
+
+}
+
+.success-message {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red; 
+    font-size: 20px; 
+  }
+
+
+  

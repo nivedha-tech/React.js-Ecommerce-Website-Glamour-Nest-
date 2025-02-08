@@ -1,0 +1,69 @@
+
+  .about-img {
+    background-image: url("C:/Users/Ramesh/fw/src/Component/images/aboutimg.jpg");
+        height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+.about-heading {
+    font-size: 50px;
+    color: #800080;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -1px;
+    margin-left: -15px;
+    background-image: url("C:\Users\Ramesh\fw\src\Component\images\cc.jpg");
+    background-size: cover; 
+}
+
+.about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    transition: 0.5s ease;
+    margin: 20px;
+    margin-top: -155px; /* Adjust to move the image higher */
+   
+}
+
+.about-description {
+    flex: 1;
+    margin: 20px;
+    max-width: 600px;
+}
+
+.about-subheading {
+    font-size: 24px;
+    color: #800080;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: purple;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

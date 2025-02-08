@@ -1,0 +1,67 @@
+.reg-image {
+    background-image: url("C:/Users/Ramesh/fw/src/Component/images/logimg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    opacity: 0.50;  /* Slight opacity for professional look */
+    display: flex; /* Flexbox layout to center the form */
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Needed for absolute positioning of the login box */
+}
+
+.reg-box{
+	width:570px;
+	height:590px;
+    border: 8px purple;
+	position:absolute;
+	top:250px;
+	left:650px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+	box-sizing:border-box;
+	font-size:30px;
+	color:black;
+	border-style:double;
+    text-align: center;
+
+}
+
+.reg-input{
+	height:30px;
+	width:80%;
+	
+        align-items: center;
+}
+
+.reg-input:hover{
+    border-color: purple; /* Changes border color when focused (purple shade) */
+
+}
+
+.reg-submit{
+    font-size: 16px;
+    border: 3px solid purple;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 10px;
+    background-color: #ff44f2;
+    font-weight: bold;
+    color: none;
+}
+
+.reg-submit:hover {
+    background-color: white;
+    color:#ff44f2;
+}
+
+#show {
+    margin-top: -20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+}

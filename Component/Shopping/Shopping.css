@@ -1,0 +1,266 @@
+
+.explore-menu
+{
+display: flex;
+flex-direction: column;
+gap:20px;
+}
+.explore-menu h1{
+color: #262262;
+font-weight: 500;
+
+}
+.explore-menu-text {
+    text-align: center;
+}
+.explore-menu-text
+{
+    max-width: 60%;
+    columns:#808080;
+
+}
+.explore-menu-list
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+   text-align: center;
+   margin: 20px 0px; 
+   overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar
+{
+    display: none;
+}
+.explore-menu-list-item img{
+    width:7.5vw;
+    min-width:80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2sec;
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    color:#747474;
+    font-size:max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border :none;
+}
+.explore-menu-list-item .active
+{
+    border: 2px solid #ff44f2;
+    padding: 20px;
+}
+
+.h1-style {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px; /* Reduced title font size */
+}
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  margin: 0 20px; /* Reduced margin */
+  flex-wrap: wrap;
+}
+
+#product1 .pro {
+  width: 15%; /* Smaller box width */
+  min-width: 150px; /* Minimum width for smaller screens */
+  border-radius: 10px; /* Reduced border-radius */
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  margin: 15px; /* Reduced margin */
+  transition: 0.2s ease;
+  border-style: solid;
+  border-width: 1px; /* Reduced border width */
+  border-color: purple;
+  gap: 5px;
+}
+
+#product1 .pro img {
+  height: 150px; /* Smaller image height */
+  width: 150px; /* Smaller image width */
+}
+
+#product1 .pro .des {
+  text-align: center;
+}
+
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 16px; /* Smaller font size */
+}
+
+#product1 .pro .des h5 {
+  padding-top: 5px;
+  color: #1a1a1a;
+  font-size: 18px; /* Smaller font size */
+  margin-top: 5px;
+}
+
+.btn-style{  
+  border: 1px solid black; /* Reduced border size */
+  background: purple;
+  color: white;
+  font-weight: 80%;
+  top: 304%; /* Reduced margin */
+  padding: 3px 6px; 
+  height: 100px;
+  width:200px;/* Smaller padding */
+
+}
+#product1 .pro .des i {
+  font-size: 14px; /* Smaller star icons */
+  color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+  padding-top: 5px;
+  color: #088178;
+  font-size: 18px; /* Smaller font size */
+}
+
+.shop-buy-form .input-box{
+  height: 30px; 
+  width: 155%;
+border-radius: 0%;
+
+ margin-left: -82px;
+}
+
+
+.input-box1{
+  height: 40px; /* Smaller input height */
+  width: 90%;
+  border-radius: 0%;
+ 
+}
+
+.box {
+  width: 300px; /* Adjusted for smaller box */
+  height: 300px; /* Adjusted for smaller box */
+  border: 1px solid black;
+  border-radius: 10px; /* Reduced border-radius */
+  background-image: url("C:/Users/Ramesh/fw/src/Component/images/aboutimg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  font-size: 14px; /* Smaller paragraph font size */
+}
+
+textarea {
+  height: 20px; /* Smaller textarea height */
+  width: 80px; /* Smaller textarea width */
+}
+
+
+
+.cart-qty-plus
+{
+  border: 1px solid black; /* Reduced border size */
+  background: green;
+  color: white;
+  font-weight: bold;
+  margin: 5px; /* Reduced margin */
+  padding: 3px 6px; 
+}
+.addtocart
+{
+   border: 2px solid black;
+    background: red;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+     padding: 5px 10px;
+}
+#user-details
+{
+  height: 500px;
+  width:500px;
+  border: 5px solid purple;
+  border-style: double;
+  margin-left: 36%;
+  padding: 5%;
+}
+#user-details .text {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.submit-form{
+
+  border: 2px solid black;
+  background: purple;
+  color: black;
+  font-weight: bold;
+  margin: 30px;
+   padding: 5px 10px;
+
+   width: 155%;
+ margin-left: -83px;
+}
+#user-details .text{
+  font-weight: bold;
+  color: black;
+}
+
+.bucket-style
+{
+  color: red;
+   font-weight: bold;
+    text-align: center;
+    position:relative;
+     top: 60px;
+}
+.button-actions {
+  display: flex;
+  justify-content: center; /* Center-aligns the buttons */
+  gap: 70%; /* Space between the buttons */
+  margin-top: 10px; /* Optional: space above the buttons */
+}
+
+.view-cart-button
+{
+
+  border: 1px solid black; /* Reduced border size */
+  background: purple;
+  color: white;
+  font-weight: 80%;
+ 
+  height: 100px;
+  width:200px;/* Smaller padding */
+ 
+}
+.input-box {
+  width: 100%; /* Makes the input box take the full width of its parent container */
+  padding: 5px; /* Adds padding inside the input box */
+  margin: 5px 0; /* Adds some space around the input boxes */
+  border: 2px solid #ccc; /* Sets a solid gray border */
+  font-size: 16px; 
+
+}
+
+.input-box:focus {
+  border-color: purple; /* Changes border color when focused (purple shade) */
+  outline: none; /* Removes the default outline */
+}
+
+
+
+
+
