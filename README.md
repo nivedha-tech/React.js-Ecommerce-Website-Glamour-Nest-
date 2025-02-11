@@ -1,1 +1,1 @@
-# React.js-Ecommerce-Website-Glamour-Nest-
+# React.js-Glamour-Nest
